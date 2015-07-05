@@ -1,0 +1,254 @@
+body {
+  background-color: rgb(63, 136, 152);
+  font: 400 0.938em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.body-text {
+  float: left;
+  clear: both;
+  margin: 11px 0 0 10.22426%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.client-email {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 20;
+  width: 82.9629629629%;
+  height: 191px;
+  margin: -632px 0 0 8.5185185185%;
+}
+
+.code-section {
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 40.4629629629%;
+  height: 492px;
+  margin: 160px 0 0 8.51852%;
+}
+
+.codepen {
+  position: relative;
+  z-index: 0;
+  width: 46.3108882521%;
+  margin-left: -0.06079%;
+}
+
+.email-body {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 152px;
+  margin-left: -0.00174%;
+  background-color: rgba(251, 247, 247, 0.98);
+  overflow: scroll;
+}
+
+.email-heading {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 39px;
+  margin-left: -0.00174%;
+  border-bottom: 1px solid rgb(102, 102, 102);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.email-show {
+  float: left;
+  width: 100.001743892%;
+  height: 191px;
+  margin-left: -0.00174%;
+  border: 1px solid rgb(77, 77, 77);
+}
+
+.email-title {
+  float: left;
+  margin: 5px 0 0 4.01786%;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.example {
+  float: left;
+  width: 100%;
+  height: 259px;
+  margin-left: -0.03584%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  background: url('../images/Screen%20Shot%202015-07-04%20at%204.09.37%20PM.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: left top;
+}
+
+.fork {
+  display: block;
+  float: left;
+  height: 36px;
+  border-radius: 10px;
+  background-color: rgb(64, 171, 149);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.fork:hover {
+  background-color: rgb(50, 134, 117);
+}
+
+.fork-button-group {
+  float: left;
+  clear: both;
+  width: 99.9964246129%;
+  height: 134px;
+  margin: 27px 0 0 -0.04291%;
+}
+
+.github {
+  position: relative;
+  z-index: 1;
+  width: 46.4530892448%;
+  margin-left: 7.06905%;
+}
+
+.goal {
+  position: relative;
+  float: left;
+  z-index: 10;
+  width: 40.3703703703%;
+  height: 294px;
+  margin: -422px 0 0 51.01852%;
+}
+
+.header-from {
+  float: left;
+  margin: 8px 0 0 7.8125%;
+  font-size: 1.067em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.header-to {
+  float: left;
+  clear: both;
+  margin-left: 7.8125%;
+  font-size: 0.867em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(123, 119, 119);
+}
+
+.koan-faqs {
+  float: left;
+  margin: 11px 0 0 0.0418526785%;
+  font-size: 1.067em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(38, 6, 154);
+}
+
+.others {
+  clear: both;
+  width: 72.613717765%;
+  margin: 27px 0 0 13.0582472199%;
+}
+
+.paperclip {
+  display: block;
+  float: left;
+  width: 42px;
+  height: auto;
+  margin: 10px 0 0 63.3492606026%;
+  overflow: hidden;
+}
+
+.show {
+  float: left;
+  width: 90%;
+  height: 800px;
+  margin: 43px 0 0 5%;
+  background-color: #ffffff;
+}
+
+.think-about {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 160px;
+  margin-top: 15px;
+  background-color: rgb(222, 222, 222);
+}
+
+.think-about-list {
+  float: left;
+  clear: both;
+  margin: 27px 0 0 7.56881%;
+  font-size: 1.067em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.body-text p,
+.think-about-list p {
+  margin-bottom: 1em;
+}
+
+.wrapper {
+  float: left;
+  width: 100%;
+  height: 261px;
+  margin-top: 70px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+._text {
+  float: left;
+  margin: 13px 0 0 3.80591%;
+  font-size: 1.067em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.header-from span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}

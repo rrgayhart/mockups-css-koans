@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(43, 57, 118);
+  font-size: 1em;
+}
+
+.element {
+  float: left;
+  width: 68%;
+}
+
+.element-1 {
+  height: 556px;
+  margin-left: 16.83073%;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-2 {
+  clear: both;
+  height: 550px;
+  margin-left: 16.83203%;
+  background-color: rgb(195, 195, 195);
+}
