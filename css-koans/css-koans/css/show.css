@@ -1,6 +1,6 @@
 body {
   background-color: rgb(63, 136, 152);
-  font: 400 0.938em/1.38 Helvetica;
+  font: 400 1em/1.38 Helvetica;
   color: rgb(0, 0, 0);
 }
 
@@ -8,7 +8,7 @@ body {
   float: left;
   clear: both;
   margin: 11px 0 0 10.22426%;
-  font-size: 1em;
+  font-size: 0.938em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(0, 0, 0);
@@ -18,10 +18,10 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 20;
+  z-index: 21;
   width: 82.9629629629%;
   height: 191px;
-  margin: -632px 0 0 8.5185185185%;
+  margin: -632px 0 0 8.51852%;
 }
 
 .code-section {
@@ -46,7 +46,6 @@ body {
   clear: both;
   width: 100%;
   height: 152px;
-  margin-left: -0.00174%;
   background-color: rgba(251, 247, 247, 0.98);
   overflow: scroll;
 }
@@ -56,10 +55,16 @@ body {
   float: left;
   width: 100%;
   height: 39px;
-  margin-left: -0.00174%;
   border-bottom: 1px solid rgb(102, 102, 102);
   border-radius: 3px;
   background-color: rgb(255, 255, 255);
+}
+
+.email-heading .container {
+  float: left;
+  width: 16.7811802455%;
+  height: 23px;
+  margin: 10px 0 0 63.39286%;
 }
 
 .email-show {
@@ -67,13 +72,12 @@ body {
   width: 100.001743892%;
   height: 191px;
   margin-left: -0.00174%;
-  border: 1px solid rgb(77, 77, 77);
 }
 
 .email-title {
   float: left;
   margin: 5px 0 0 4.01786%;
-  font-size: 1.4em;
+  font-size: 1.313em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(0, 0, 0);
@@ -98,7 +102,7 @@ body {
   height: 36px;
   border-radius: 10px;
   background-color: rgb(64, 171, 149);
-  font-size: 1em;
+  font-size: 0.938em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
@@ -136,7 +140,7 @@ body {
 .header-from {
   float: left;
   margin: 8px 0 0 7.8125%;
-  font-size: 1.067em;
+  font-size: 1em;
   font-weight: 700;
   line-height: 1.38;
   color: rgb(0, 0, 0);
@@ -146,7 +150,7 @@ body {
   float: left;
   clear: both;
   margin-left: 7.8125%;
-  font-size: 0.867em;
+  font-size: 0.813em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(123, 119, 119);
@@ -154,8 +158,8 @@ body {
 
 .koan-faqs {
   float: left;
-  margin: 11px 0 0 0.0418526785%;
-  font-size: 1.067em;
+  margin: 1px 0 0 0.21825%;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(38, 6, 154);
@@ -164,7 +168,7 @@ body {
 .others {
   clear: both;
   width: 72.613717765%;
-  margin: 27px 0 0 13.0582472199%;
+  margin: 27px 0 0 13.05825%;
 }
 
 .paperclip {
@@ -172,7 +176,7 @@ body {
   float: left;
   width: 42px;
   height: auto;
-  margin: 10px 0 0 63.3492606026%;
+  margin-left: -0.24943%;
   overflow: hidden;
 }
 
@@ -197,7 +201,7 @@ body {
   float: left;
   clear: both;
   margin: 27px 0 0 7.56881%;
-  font-size: 1.067em;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(0, 0, 0);
@@ -221,7 +225,7 @@ body {
 ._text {
   float: left;
   margin: 13px 0 0 3.80591%;
-  font-size: 1.067em;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(0, 0, 0);
@@ -251,4 +255,225 @@ body {
   word-break: normal;
   word-wrap: normal;
   white-space: normal;
+}
+
+@media(max-width: 876px) {
+  .client-email .email-show {
+    margin-left: 0;
+  }
+
+  .code-section .fork-button-group {
+    width: 163.0892874644%;
+    margin-top: 296px;
+    margin-left: 21.06243%;
+  }
+
+  .code-section .wrapper {
+    width: 205.116142311%;
+    margin-top: 85px;
+  }
+
+  .container {
+    margin-left: 5.02283%;
+  }
+
+  .container .client-email {
+    position: relative;
+    z-index: 21;
+    margin-top: -624px;
+    margin-left: 8.51642%;
+  }
+
+  .container .code-section {
+    position: relative;
+    z-index: 5;
+    margin-top: 152px;
+    margin-left: 8.48073%;
+  }
+
+  .container .goal {
+    position: relative;
+    z-index: 10;
+    margin-top: -351px;
+    margin-left: 51.00135%;
+  }
+
+  .container .koan-faqs {
+    width: 110px;
+    margin-top: 0;
+    margin-left: 3.52612%;
+  }
+
+  .container .paperclip {
+    height: auto;
+    margin-left: 51.10075%;
+  }
+
+  .email-body .body-text {
+    width: 79.5107033639%;
+    margin-left: 10.26854%;
+  }
+
+  .email-heading .container {
+    width: 51.2440545902%;
+    margin-top: 5px;
+    margin-left: 28.23203%;
+  }
+
+  .email-heading .email-title {
+    margin-left: 3.99866%;
+  }
+
+  .email-show .email-body {
+    width: 100.0406319462%;
+    height: 170px;
+    margin-left: -0.04063%;
+  }
+
+  .fork-button-group .codepen {
+    position: relative;
+    z-index: 0;
+    width: 99.3779084006%;
+    margin-left: 0.04409%;
+  }
+
+  .fork-button-group .github {
+    position: relative;
+    clear: both;
+    z-index: 1;
+    width: 99.6914033798%;
+    margin-top: 9px;
+    margin-left: 0.04409%;
+  }
+
+  .fork-button-group .others {
+    width: 99.6914033798%;
+    margin-top: 8px;
+    margin-left: 0;
+  }
+
+  .goal .example {
+    width: 205.2753082174%;
+    margin-top: 218px;
+    margin-left: -105.27531%;
+  }
+
+  .goal .think-about {
+    width: 205.2753082174%;
+    margin-top: 178px;
+    margin-left: -105.27531%;
+  }
+
+  .show {
+    width: 89.9543378995%;
+    height: 1220px;
+  }
+}
+
+@media(max-width: 403px) {
+  body {
+    font-size: 1em;
+  }
+
+  .client-email .email-show {
+    width: 100%;
+    height: 273px;
+  }
+
+  .code-section .fork-button-group {
+    margin-top: 286px;
+    margin-left: 21.0267%;
+  }
+
+  .code-section .wrapper {
+    margin-top: 154px;
+  }
+
+  .container .client-email {
+    position: relative;
+    z-index: 21;
+    width: 83.0309038403%;
+    height: 273px;
+    margin-left: 8.4867%;
+  }
+
+  .container .code-section {
+    position: relative;
+    z-index: 5;
+    margin-left: 8.47808%;
+  }
+
+  .container .goal {
+    position: relative;
+    z-index: 10;
+    margin-left: 50.9978%;
+  }
+
+  .container .koan-faqs {
+    clear: both;
+    width: 239.7523219814%;
+    margin-top: -23px;
+    margin-left: 53.91869%;
+    font-style: normal;
+  }
+
+  .container .paperclip {
+    visibility: hidden;
+    height: auto;
+    margin-top: 8px;
+    margin-left: -43.11062%;
+  }
+
+  .email-body .body-text {
+    margin-left: 10.22072%;
+  }
+
+  .email-body .header-from,
+  .email-body .header-to {
+    margin-left: 7.81096%;
+  }
+
+  .email-heading .container {
+    position: relative;
+    clear: both;
+    z-index: 17;
+    margin-top: -33px;
+    margin-left: 36.01413%;
+  }
+
+  .email-heading .email-title {
+    position: relative;
+    z-index: 18;
+    margin-left: 4.01081%;
+  }
+
+  .email-show .email-body {
+    width: 100%;
+    height: 234px;
+    margin-left: 0;
+  }
+
+  .fork-button-group .codepen {
+    position: relative;
+    z-index: 0;
+  }
+
+  .fork-button-group .github {
+    position: relative;
+    z-index: 1;
+  }
+
+  .fork-button-group .others {
+    font-style: normal;
+  }
+
+  .goal .example {
+    margin-top: 286px;
+    margin-left: -105.2744%;
+  }
+
+  .goal .think-about {
+    margin-top: 158px;
+    margin-left: -105.2744%;
+  }
 }
